@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -84,7 +84,6 @@
 				42EC1CB5B6ED8C5A08FD1015 /* Pods-Marlin.debug.xcconfig */,
 				9FFA4CE2EAE4C5460408B200 /* Pods-Marlin.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -121,12 +120,12 @@
 		98C5F06225B6741400F2B56F /* Marlin */ = {
 			isa = PBXGroup;
 			children = (
+				98C5F0AD25B67B1100F2B56F /* View */,
 				98C5F06325B6741400F2B56F /* AppDelegate.swift */,
 				98C5F06725B6741500F2B56F /* Assets.xcassets */,
 				98C5F06C25B6741500F2B56F /* Info.plist */,
 				98C5F06D25B6741500F2B56F /* Marlin.entitlements */,
 				98C5F09825B6777E00F2B56F /* main.swift */,
-				98C5F0A025B6780000F2B56F /* MainViewController.swift */,
 			);
 			path = Marlin;
 			sourceTree = "<group>";
@@ -147,6 +146,14 @@
 				98C5F08325B6741500F2B56F /* Info.plist */,
 			);
 			path = MarlinUITests;
+			sourceTree = "<group>";
+		};
+		98C5F0AD25B67B1100F2B56F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98C5F0A025B6780000F2B56F /* MainViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
