@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		98C5F06425B6741400F2B56F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5F06325B6741400F2B56F /* AppDelegate.swift */; };
-		98C5F06625B6741400F2B56F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5F06525B6741400F2B56F /* ViewController.swift */; };
 		98C5F06825B6741500F2B56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C5F06725B6741500F2B56F /* Assets.xcassets */; };
-		98C5F06B25B6741500F2B56F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C5F06925B6741500F2B56F /* Main.storyboard */; };
 		98C5F07725B6741500F2B56F /* MarlinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5F07625B6741500F2B56F /* MarlinTests.swift */; };
 		98C5F08225B6741500F2B56F /* MarlinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5F08125B6741500F2B56F /* MarlinUITests.swift */; };
+		98C5F09925B6777E00F2B56F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5F09825B6777E00F2B56F /* main.swift */; };
+		98C5F0A125B6780000F2B56F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5F0A025B6780000F2B56F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +35,7 @@
 /* Begin PBXFileReference section */
 		98C5F06025B6741400F2B56F /* Marlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marlin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C5F06325B6741400F2B56F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98C5F06525B6741400F2B56F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98C5F06725B6741500F2B56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		98C5F06A25B6741500F2B56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98C5F06C25B6741500F2B56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98C5F06D25B6741500F2B56F /* Marlin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Marlin.entitlements; sourceTree = "<group>"; };
 		98C5F07225B6741500F2B56F /* MarlinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarlinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +44,8 @@
 		98C5F07D25B6741500F2B56F /* MarlinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarlinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C5F08125B6741500F2B56F /* MarlinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarlinUITests.swift; sourceTree = "<group>"; };
 		98C5F08325B6741500F2B56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98C5F09825B6777E00F2B56F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		98C5F0A025B6780000F2B56F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +97,11 @@
 			isa = PBXGroup;
 			children = (
 				98C5F06325B6741400F2B56F /* AppDelegate.swift */,
-				98C5F06525B6741400F2B56F /* ViewController.swift */,
 				98C5F06725B6741500F2B56F /* Assets.xcassets */,
-				98C5F06925B6741500F2B56F /* Main.storyboard */,
 				98C5F06C25B6741500F2B56F /* Info.plist */,
 				98C5F06D25B6741500F2B56F /* Marlin.entitlements */,
+				98C5F09825B6777E00F2B56F /* main.swift */,
+				98C5F0A025B6780000F2B56F /* MainViewController.swift */,
 			);
 			path = Marlin;
 			sourceTree = "<group>";
@@ -228,7 +228,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				98C5F06825B6741500F2B56F /* Assets.xcassets in Resources */,
-				98C5F06B25B6741500F2B56F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +252,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98C5F06625B6741400F2B56F /* ViewController.swift in Sources */,
+				98C5F0A125B6780000F2B56F /* MainViewController.swift in Sources */,
 				98C5F06425B6741400F2B56F /* AppDelegate.swift in Sources */,
+				98C5F09925B6777E00F2B56F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,17 +288,6 @@
 			targetProxy = 98C5F07E25B6741500F2B56F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		98C5F06925B6741500F2B56F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				98C5F06A25B6741500F2B56F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		98C5F08425B6741500F2B56F /* Debug */ = {
