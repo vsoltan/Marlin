@@ -14,7 +14,7 @@ class MainViewController: NSViewController {
       let rect = NSRect(x: 0, y: 0, width: 480, height: 240)
       view = NSView(frame: rect)
       view.wantsLayer = true
-//      view.layer?.backgroundColor = NSColor.white.cgColor
+      view.layer?.backgroundColor = NSColor.black.cgColor
   }
   
   override func viewDidLoad() {

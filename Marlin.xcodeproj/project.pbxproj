@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98A71C0525B67D73007754B4 /* SMBClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A71C0425B67D73007754B4 /* SMBClient.swift */; };
 		98C5F06425B6741400F2B56F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5F06325B6741400F2B56F /* AppDelegate.swift */; };
 		98C5F06825B6741500F2B56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C5F06725B6741500F2B56F /* Assets.xcassets */; };
 		98C5F07725B6741500F2B56F /* MarlinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5F07625B6741500F2B56F /* MarlinTests.swift */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		42EC1CB5B6ED8C5A08FD1015 /* Pods-Marlin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marlin.debug.xcconfig"; path = "Target Support Files/Pods-Marlin/Pods-Marlin.debug.xcconfig"; sourceTree = "<group>"; };
 		49FDF875CA86F8FEEF20B184 /* Pods_Marlin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marlin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A71C0425B67D73007754B4 /* SMBClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMBClient.swift; sourceTree = "<group>"; };
 		98C5F06025B6741400F2B56F /* Marlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marlin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C5F06325B6741400F2B56F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98C5F06725B6741500F2B56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,6 +97,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		98A71C0325B67D4E007754B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98A71C0425B67D73007754B4 /* SMBClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		98C5F05725B6741400F2B56F = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 		98C5F06225B6741400F2B56F /* Marlin */ = {
 			isa = PBXGroup;
 			children = (
+				98A71C0325B67D4E007754B4 /* Model */,
 				98C5F0AD25B67B1100F2B56F /* View */,
 				98C5F06325B6741400F2B56F /* AppDelegate.swift */,
 				98C5F06725B6741500F2B56F /* Assets.xcassets */,
@@ -331,6 +342,7 @@
 				98C5F0A125B6780000F2B56F /* MainViewController.swift in Sources */,
 				98C5F06425B6741400F2B56F /* AppDelegate.swift in Sources */,
 				98C5F09925B6777E00F2B56F /* main.swift in Sources */,
+				98A71C0525B67D73007754B4 /* SMBClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
